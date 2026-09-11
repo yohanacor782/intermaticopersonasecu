@@ -1,0 +1,62 @@
+/* Fuentes de respaldo: la descarga no trajo DIN Next ni Open Sans */
+@font-face {
+    font-family: 'Open Sans Light';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('Open Sans');
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Open Sans');
+}
+
+@font-face {
+    font-family: 'Open Sans Bold';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Open Sans Bold'), local('Open Sans');
+}
+
+@font-face {
+    font-family: 'DINNextSlabPro Medium';
+    font-style: normal;
+    font-weight: 500;
+    src: local('Roboto Slab'), local('Roboto Slab Medium');
+}
+
+.slide.desktop,
+.slide.desktop ul,
+.slide.desktop ul li {
+    height: 100%;
+}
+
+.slide.desktop ul li {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.containerBannerSlider,
+.slide.desktop {
+    overflow: hidden;
+}
+
+.containerBannerHome[style*="BancoPacifico"] {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    min-height: 420px;
+}
+
+.containerBannerHome .contentBannerHome h2,
+.containerBannerHome .contentBannerHome h3 {
+    color: #021d49;
+    text-shadow: 0 0 12px #fff, 0 0 24px #fff;
+}
+
+.containerBannerHome .contentBannerHome img[src*="Logo-Banco-con-ISO"] {
+    display: none !important;
+}
